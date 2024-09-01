@@ -3,10 +3,10 @@
 from teacher import Teacher
 from user import User
 
-my_teacher = Teacher("My", "Teacher")
+my_teacher = Teacher ("My", "Teacher")
 
 class TestTeacher:
-    '''Class "Teacher" in teacher.py'''
+    '''Class "Teacher" in teacher.py''' 
 
     def test_is_subclass(self):
         '''is a subclass of "User".'''
